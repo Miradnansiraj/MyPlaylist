@@ -133,7 +133,7 @@ public class ArtistSongActivity extends AppCompatActivity {
 
                     // Start the audio file
                     mMediaPlayer.start();
-                    playPause.setImageResource(R.drawable.twotone_pause_circle_filled_black_18dp);
+                    playPause.setImageResource(R.drawable.twotone_pause_circle_filled_black_48);
 
                     // Setup a listener on the media player, so that we can stop and release the
                     // media player once the sound has finished playing.
@@ -151,12 +151,12 @@ public class ArtistSongActivity extends AppCompatActivity {
                 if(mMediaPlayer.isPlaying())
                 {
                     mMediaPlayer.pause();
-                    playPause.setImageResource(R.drawable.twotone_play_circle_filled_black_18dp);
+                    playPause.setImageResource(R.drawable.twotone_play_circle_filled_black_48);
                 }
                 else
                 {
                     mMediaPlayer.start();
-                    playPause.setImageResource(R.drawable.twotone_pause_circle_filled_black_18dp);
+                    playPause.setImageResource(R.drawable.twotone_pause_circle_filled_black_48);
                 }
                 break;
             case R.id.previous_button_artist_song:
