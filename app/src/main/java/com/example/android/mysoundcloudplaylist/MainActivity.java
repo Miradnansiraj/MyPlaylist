@@ -10,9 +10,9 @@ import android.support.v7.widget.Toolbar;
 import com.example.android.mysoundcloudplaylist.adapter.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity{
-    TabLayout tabLayout;
-    ViewPager viewPager;
-    ViewPagerAdapter pagerAdapter;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private ViewPagerAdapter pagerAdapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
