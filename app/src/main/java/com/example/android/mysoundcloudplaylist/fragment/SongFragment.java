@@ -1,4 +1,4 @@
-package com.example.android.mysoundcloudplaylist;
+package com.example.android.mysoundcloudplaylist.fragment;
 
 
 import android.content.Context;
@@ -11,7 +11,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
+
+import com.example.android.mysoundcloudplaylist.R;
+import com.example.android.mysoundcloudplaylist.Song;
+import com.example.android.mysoundcloudplaylist.adapter.SongAdapter;
 
 import java.util.ArrayList;
 

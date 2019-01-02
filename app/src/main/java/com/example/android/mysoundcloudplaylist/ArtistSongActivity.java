@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import com.example.android.mysoundcloudplaylist.adapter.SongAdapter;
 
 import java.util.ArrayList;
 

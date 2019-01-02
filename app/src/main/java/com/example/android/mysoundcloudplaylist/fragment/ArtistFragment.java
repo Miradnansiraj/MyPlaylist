@@ -1,7 +1,6 @@
-package com.example.android.mysoundcloudplaylist;
+package com.example.android.mysoundcloudplaylist.fragment;
 
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -9,6 +8,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
+
+import com.example.android.mysoundcloudplaylist.ArtistSongActivity;
+import com.example.android.mysoundcloudplaylist.R;
+import com.example.android.mysoundcloudplaylist.Song;
+import com.example.android.mysoundcloudplaylist.adapter.SongAdapter;
 
 import java.util.ArrayList;
 

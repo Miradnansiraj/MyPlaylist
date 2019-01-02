@@ -1,9 +1,12 @@
-package com.example.android.mysoundcloudplaylist;
+package com.example.android.mysoundcloudplaylist.adapter;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.example.android.mysoundcloudplaylist.fragment.ArtistFragment;
+import com.example.android.mysoundcloudplaylist.fragment.SongFragment;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter
 {
